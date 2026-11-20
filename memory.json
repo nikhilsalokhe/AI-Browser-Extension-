@@ -1,0 +1,82 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "timestamp": "2026-11-20T18:11:57",
+      "command": "what is artificial intelligence",
+      "result": "Artificial intelligence is intelligence demonstrated by machines.",
+      "pages_visited": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+          "title": "Artificial intelligence"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "timestamp": "2026-11-20T18:17:17",
+      "command": "search sony headphones on amazon",
+      "result": "Sony WH-1000XM5 are  on Amazon.",
+      "platform_journey": [
+        "bing",
+        "amazon"
+      ],
+      "step_trace": [
+        {
+          "step": 1,
+          "action": "navigate",
+          "url": "https://www.bing.com",
+          "platform": "bing",
+          "description": "Open Bing"
+        },
+        {
+          "step": 2,
+          "action": "search",
+          "url": "https://www.bing.com",
+          "platform": "bing",
+          "description": "Type sony headphones"
+        },
+        {
+          "step": 3,
+          "action": "click_top_result",
+          "url": "https://www.amazon.com/dp/B09XS7JWHH",
+          "platform": "amazon",
+          "description": "Click Amazon product"
+        }
+      ],
+      "cookies_info": {
+        "count": 22,
+        "domains": [
+          "amazon.com",
+          "bing.com"
+        ]
+      },
+      "last_page": {
+        "url": "https://www.amazon.com/dp/B09XS7JWHH",
+        "title": "Sony WH-1000XM5 Amazon"
+      },
+      "pages_visited": [
+        {
+          "url": "https://www.bing.com",
+          "title": "Bing"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B09XS7JWHH",
+          "title": "Sony WH-1000XM5 Amazon"
+        }
+      ]
+    }
+  ],
+  "pages": {
+    "https://en.wikipedia.org/wiki/Artificial_intelligence": {
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "title": "Artificial intelligence - Wikipedia",
+      "summary": "Artificial intelligence is intelligence demonstrated by machines.",
+      "last_visited": "2026-11-20T18:11:57",
+      "visit_count": 1
+    }
+  },
+  "facts": [
+    "[From 'Artificial intelligence - Wikipedia']: Artificial intelligence is intelligence demonstrated by machines."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "groq_api_key": "",
+  "groq_model": "llama3-8b-8192",
+  "gemini_api_key": "",
+  "browser": "chrome",
+  "max_steps": 15,
+  "step_delay": 1.2
+}
